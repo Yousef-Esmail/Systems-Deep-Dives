@@ -57,7 +57,8 @@ int main(int argc, char *argv[]) {
     return EXIT_FAILURE;
   }
 
-  // Hexadecimal output makes the values and their byte composition easier to compare.
+  // Hexadecimal output makes the values and their byte composition easier to
+  // compare.
   printf("----------------------------------------\n");
   printf("File Path     : %s\n", pathname);
   printf("Project ID    : 0x%02x\n", proj_id);
